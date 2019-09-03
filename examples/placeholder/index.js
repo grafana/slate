@@ -1,4 +1,4 @@
-import { Editor } from 'slate-react'
+import { Editor } from '@grafana/slate-react'
 import PlaceholderPlugin from 'slate-react-placeholder'
 import { Value } from 'slate'
 import initialValue from './value.json'

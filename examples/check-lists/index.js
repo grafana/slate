@@ -1,5 +1,5 @@
 import React from 'react'
-import { Editor } from 'slate-react'
+import { Editor } from '@grafana/slate-react'
 import { Value } from 'slate'
 import { css } from 'emotion'
 

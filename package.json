@@ -86,7 +86,7 @@
     "slate-dev-test-utils": "*",
     "slate-html-serializer": "*",
     "slate-plain-serializer": "*",
-    "slate-react": "*",
+    "@grafana/slate-react": "*",
     "slate-react-placeholder": "*"
   },
   "scripts": {

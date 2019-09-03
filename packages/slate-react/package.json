@@ -1,9 +1,9 @@
 {
-  "name": "slate-react",
+  "name": "@grafana/slate-react",
   "description": "A set of React components for building completely customizable rich-text editors.",
   "version": "0.22.8",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/kaydelaney/slate.git",
   "main": "lib/slate-react.js",
   "module": "lib/slate-react.es.js",
   "umd": "dist/slate-react.js",
@@ -50,6 +50,9 @@
     "immutable": "Immutable",
     "react": "React",
     "slate": "Slate"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "canvas",

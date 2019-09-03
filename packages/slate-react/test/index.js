@@ -3,7 +3,7 @@ import clean from './helpers/clean'
 import React from 'react'
 import ReactDOM from 'react-dom/server'
 import ShallowRenderer from 'react-test-renderer/shallow'
-import { Editor } from 'slate-react'
+import { Editor } from '@grafana/slate-react'
 import { fixtures } from 'slate-dev-test-utils'
 import { JSDOM } from 'jsdom'
 
