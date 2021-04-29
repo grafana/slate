@@ -1,7 +1,7 @@
 {
   "name": "@grafana/slate-react",
   "description": "A set of React components for building completely customizable rich-text editors.",
-  "version": "0.22.9-grafana",
+  "version": "0.22.10-grafana",
   "license": "MIT",
   "repository": "git://github.com/kaydelaney/slate.git",
   "main": "lib/slate-react.js",
