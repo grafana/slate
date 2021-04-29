@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useLayoutEffect } from 'react'
 import Types from 'prop-types'
 import SlateTypes from 'slate-prop-types'
 import ImmutableTypes from 'react-immutable-proptypes'
@@ -13,11 +13,20 @@ import DATA_ATTRS from '../constants/data-attributes'
  */
 
 const TextString = ({ text = '', isTrailing = false }) => {
+  const ref = useRef(null)
+
+  useLayoutEffect(() => {
+    if (ref.current && ref.current.innerText !== text) {
+      ref.current.innerText = text
+    }
+  })
+
   return (
     <span
       {...{
         [DATA_ATTRS.STRING]: true,
       }}
+      ref={ref}
     >
       {text}
       {isTrailing ? '\n' : null}
